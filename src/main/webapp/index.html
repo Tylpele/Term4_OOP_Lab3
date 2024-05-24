@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ноутбуки</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Характеристики ноутбуков</h1>
+    <table class="table table-striped">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Модель</th>
+            <th scope="col">Процессор</th>
+            <th scope="col">Оперативная память</th>
+            <th scope="col">Накопитель</th>
+            <th scope="col">Экран</th>
+            <th scope="col">Цена, $</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<div class="container" style="margin-top: 60px; margin-bottom: 100px;">
+    <h2>Добавить ноутбук</h2>
+    <form action="addition" method="post" id="addition">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="model">Модель:</label>
+                <input type="text" class="form-control" id="model" name="model">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="processor">Процессор:</label>
+                <input type="text" class="form-control" id="processor" name="processor">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="RAM">Оперативная память (GB):</label>
+                <input type="text" class="form-control" id="RAM" name="RAM">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="storage_drive">Накопитель (GB):</label>
+                <input type="text" class="form-control" id="storage_drive" name="storage_drive">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="display">Экран (дюймы):</label>
+                <input type="text" class="form-control" id="display" name="display">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="price">Цена ($):</label>
+                <input type="text" class="form-control" id="price" name="price">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary" id="add">Добавить</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

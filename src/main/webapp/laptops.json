@@ -1,0 +1,60 @@
+[
+    {
+        "price": "999",
+        "display": "13.3 1920x1080",
+        "model": "Dell XPS 13",
+        "processor": "Intel Core i7",
+        "storage_drive": "512 GB SSD",
+        "RAM": "16 GB"
+    },
+    {
+        "price": "999",
+        "display": "13.3 2560x1600",
+        "model": "MacBook Air",
+        "processor": "Apple M1",
+        "storage_drive": "256 GB SSD",
+        "RAM": "8 GB"
+    },
+    {
+        "price": "1,199",
+        "display": "13.3\" 1920x1080",
+        "model": "HP Spectre x360",
+        "processor": "Intel Core i7",
+        "storage_drive": "1 TB SSD",
+        "RAM": "16 GB"
+    },
+    {
+        "price": "1,299",
+        "display": "14\" 1920x1080",
+        "model": "Lenovo ThinkPad X1 Carbon",
+        "processor": "Intel Core i5",
+        "storage_drive": "256 GB SSD",
+        "RAM": "8 GB"
+    },
+    {
+        "price": "1,449",
+        "display": "14\" 2560x1440",
+        "model": "Asus ROG Zephyrus G14",
+        "processor": "AMD Ryzen 9",
+        "storage_drive": "1 TB SSD",
+        "RAM": "16 GB"
+    },
+    {
+        "price": "1",
+        "model": "1",
+        "processor": "1"
+    },
+    {
+        "price": "1",
+        "model": "1",
+        "processor": "1"
+    },
+    {
+        "price": "1",
+        "display": "1",
+        "model": "1",
+        "processor": "1",
+        "storage_drive": "1",
+        "RAM": "1"
+    }
+]
